@@ -22,6 +22,7 @@ Compiling, Training, and Evaluating the Model
 * How many neurons, layers, and activation functions did you select for your neural network model, and why? The number of neurons was kept the same, it includes 2 layers; the first one with 80 hidden nodes and the second with 30 hidden nodes. The activation function chosen was sigmoid.
 * Were you able to achieve the target model performance? No, the accuracy of the model did not meet the goal of 75%. However the accurracy increased to 66%.
 * What steps did you take to try and increase model performance? I increased the number of epochs in the training regimen to 150 instead of 100.
+
 ![](Resources/M1_results.png)
 
 
@@ -37,6 +38,8 @@ Compiling, Training, and Evaluating the Model
 * Were you able to achieve the target model performance? No, the accuracy of the model did not meet the goal of 75%. And the accuracy decreased to 60%.
 * What steps did you take to try and increase model performance? I add more neurons to the hidden layer
 
+![](Resources/M2_results.png)
+
 ### Model 3- Remove unnecessary input columns
 
 Data Preprocessing
@@ -49,7 +52,7 @@ Compiling, Training, and Evaluating the Model
 * Were you able to achieve the target model performance? No, the accuracy of the model did not meet the goal of 75%. However the accuracy increased to 69%.
 * What steps did you take to try and increase model performance? I remove unnecessary input columns ('SPECIAL_CONSIDERATIONS')
 
-
+![](Resources/M3_results.png)
 
 
 Summary: The first binary classifier model did a decent job at predicting wheteher applicants would be successfull if founded by Alphabet Soup with a 63% accuracy. By making changes and optimizing the model I was able to improve the accuracy of the model to 69% by removing unecessary input columns and obtained an accuracy of 66% by increasing the number of epochs in the training regimen. However when I tested the model with a higher number of neurons in the hidden layers the model did not improve its accuracy. Based on the results, my recommendation would be to implement a model that focused on removing unnecessary input columns or a model that increases the number of epochs in the training regimen, and maybe even combine these two changes into one mdel and test how it performs. 
