@@ -21,7 +21,8 @@ Data Preprocessing
 Compiling, Training, and Evaluating the Model
 * How many neurons, layers, and activation functions did you select for your neural network model, and why? The number of neurons was kept the same, it includes 2 layers; the first one with 80 hidden nodes and the second with 30 hidden nodes. The activation function chosen was sigmoid.
 * Were you able to achieve the target model performance? No, the accuracy of the model did not meet the goal of 75%. However the accurracy increased to 66%.
-* What steps did you take to try and increase model performance? I increased the number of epochs in the training regimen to 150 instead of 100. 
+* What steps did you take to try and increase model performance? I increased the number of epochs in the training regimen to 150 instead of 100.
+![](Resources/M1_results.png)
 
 
 ### Model 2- Adding more neurons to hidden layer
